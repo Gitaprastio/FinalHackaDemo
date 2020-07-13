@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/zakat_sehat__1"
     tools:context=".activity.BPJSZakatSehatT">
 
 
@@ -19,6 +20,7 @@
         android:text=" ZAKAT SEHAT "
         android:textColor="#0AF"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +38,7 @@
         android:text=" Ringkasan Zakat Anda "
         android:textColor="#0AF"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,12 +50,13 @@
         android:layout_height="128dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:text="TextView"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,6 +70,7 @@
         android:layout_marginEnd="97dp"
         android:layout_marginRight="97dp"
         android:text=" Bulan ini anda sudah membantu kesehatan  :"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/sumSaudaraTertolong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,6 +89,7 @@
         android:text="saudaratertolong"
         android:textSize="24dp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/buttonBayarZakat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -92,16 +98,18 @@
 
     <Button
         android:id="@+id/buttonBayarZakat"
-        android:layout_width="368dp"
+        android:layout_width="309dp"
         android:layout_height="38dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="546dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:text="Bayar"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/small_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

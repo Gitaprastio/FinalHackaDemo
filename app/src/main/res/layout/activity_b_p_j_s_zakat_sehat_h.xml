@@ -4,25 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/zakat_sehat"
     tools:context=".activity.BPJSZakatSehatH">
 
-
-    <TextView
-        android:id="@+id/textview_zakatsehat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text=" ZAKAT SEHAT "
-        android:textColor="#0AF"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text1"
@@ -30,17 +14,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="167dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text=" Hitung Zakat Anda "
         android:textColor="#0AF"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_zakatsehat" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <EditText
@@ -59,10 +43,9 @@
         android:id="@+id/penghasilan2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="305dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,10 +55,9 @@
         android:id="@+id/penghasilan3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="362dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,10 +67,9 @@
         android:id="@+id/penghasilan4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="424dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,25 +81,27 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
         android:text="Kewajiban Zakat anda per-bulan sebesar :"
         android:textColor="#0AF"
         android:textSize="14sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@id/penghasilan4"
-        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="@id/penghasilan4"
         app:layout_constraintTop_toBottomOf="@id/penghasilan4" />
 
     <TextView
         android:id="@+id/resultSumPenghasilan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_width="196dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="@id/zakatandaperbulan"
-        app:layout_constraintHorizontal_bias="1.5"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="@id/zakatandaperbulan"
         app:layout_constraintTop_toBottomOf="@id/zakatandaperbulan" />
 
@@ -129,8 +112,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:visibility="invisible"
         android:text=""
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@id/zakatandaperbulan"
         app:layout_constraintHorizontal_bias="1.5"
         app:layout_constraintStart_toStartOf="@id/zakatandaperbulan"
@@ -138,20 +121,22 @@
 
     <Button
         android:id="@+id/buttonLanjutkanAfterAfterHitZakat"
-        android:layout_width="344dp"
-        android:layout_height="55dp"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
 
 
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="100dp"
-        android:text="Lanjutkan"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/a__8_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@id/resultSumPenghasilan"
         app:layout_constraintTop_toBottomOf="@id/resultSumPenghasilan"
-        app:layout_constraintVertical_bias="0.42000002" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,20 +1,15 @@
-package com.example.myapplication
+package com.example.myapplication.activity
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.activity.BPJSActivityZakatMenu
-import com.example.myapplication.activity.BPJSZakatSehatH
-import com.example.myapplication.activity.DonasiPremiTunggal
-import com.example.myapplication.activity.WHYUS1
+import com.example.myapplication.R
 
-class MainActivity : AppCompatActivity() {
-
-
+class FinalHomePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_final_home_page)
 
         val buttondonasi= findViewById<Button>(R.id.buttonDonasi)
         buttondonasi.setOnClickListener {
@@ -27,21 +22,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DonasiPremiTunggal::class.java )
             startActivity(intent)
         }
-
-
-
-
-//        val intent = intent
-//        val totalHitung:Double = intent.getDoubleExtra("totalHitung", 0.0)
-//
-//
-//        var start:Double= 1.0+totalHitung
-//        var currentXp:Double=start
-
-
-
-        }
-
     }
-
-
+}

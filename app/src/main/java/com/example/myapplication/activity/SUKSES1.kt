@@ -21,7 +21,7 @@ class SUKSES1 : AppCompatActivity() {
         button.setOnClickListener {
 
            // val totalHitung = resultSumPenghasilan.text.toString().toDouble()
-            val intent = Intent(this, MainActivity::class.java )
+            val intent = Intent(this, SUKSES2::class.java )
             intent.putExtra("totalHitung", totalHitung)
             startActivity(intent)
         }
