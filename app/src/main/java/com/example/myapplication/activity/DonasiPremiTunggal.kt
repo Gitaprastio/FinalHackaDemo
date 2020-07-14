@@ -19,10 +19,6 @@ class DonasiPremiTunggal : AppCompatActivity() {
         }
 
 
-        val buttonNextbayar= findViewById<Button>(R.id.buttontunggal)
-        buttonNextbayar.setOnClickListener {
-            val intent = Intent(this, DonasiPremiCheckOuts::class.java )
-            startActivity(intent)
-        }
+
     }
 }

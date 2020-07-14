@@ -9,21 +9,21 @@
 
 
     <Button
-        android:id="@+id/buttonSukses1Selanjutnya"
-        android:layout_width="385dp"
-        android:layout_height="91dp"
+        android:id="@+id/buttonSukses2Selanjutnya"
+        android:layout_width="401dp"
+        android:layout_height="718dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="620dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/selanjutnya"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/a1__1_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.571" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

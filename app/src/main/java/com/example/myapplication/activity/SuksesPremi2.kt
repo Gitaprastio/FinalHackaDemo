@@ -11,7 +11,7 @@ class SuksesPremi2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sukses_premi2)
 
-        val button= findViewById<Button>(R.id.buttonSukses2Selanjutnya)
+        val button= findViewById<Button>(R.id.buttonSuksesPremi2)
         button.setOnClickListener {
             val intent = Intent(this, RaningFinalDemo::class.java )
             startActivity(intent)

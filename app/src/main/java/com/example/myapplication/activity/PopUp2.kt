@@ -12,7 +12,7 @@ class PopUp2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pop_up2)
 
-        val button = findViewById<Button>(R.id.buttonranking)
+        val button = findViewById<Button>(R.id.buttonLigaLain)
         button.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java )
             startActivity(intent)

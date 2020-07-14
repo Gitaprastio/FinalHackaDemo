@@ -13,15 +13,11 @@ class DonasiPremiRutin : AppCompatActivity() {
 
         val buttonpremiswitchs= findViewById<Button>(R.id.buttonRutinBayarC)
         buttonpremiswitchs.setOnClickListener {
-            val intent = Intent(this, DonasiPremiTunggal::class.java )
-            startActivity(intent)
-        }
-
-
-        val buttonNextbayarz= findViewById<Button>(R.id.buttonRutin)
-        buttonNextbayarz.setOnClickListener {
             val intent = Intent(this, DonasiPremiCheckOuts::class.java )
             startActivity(intent)
         }
+
+
+
     }
 }

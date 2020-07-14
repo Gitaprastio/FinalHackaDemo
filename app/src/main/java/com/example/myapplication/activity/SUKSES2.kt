@@ -11,7 +11,7 @@ class SUKSES2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_s_u_k_s_e_s2)
 
-        val button = findViewById<Button>(R.id.buttonDonasi)
+        val button = findViewById<Button>(R.id.buttonSukses2Selanjutnya)
         button.setOnClickListener {
             val intent = Intent(this, Ranking::class.java )
             startActivity(intent)

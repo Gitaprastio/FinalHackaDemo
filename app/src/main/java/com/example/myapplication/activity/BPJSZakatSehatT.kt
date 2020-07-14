@@ -21,9 +21,8 @@ class BPJSZakatSehatT : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.buttonBayarZakat)
         button.setOnClickListener {
-           // val totalHitung = resultSumPenghasilan.text.toString().toDouble()
             val intent = Intent(this, SUKSES1::class.java )
-            intent.putExtra("totalHitung", totalHitung)
+           // intent.putExtra("totalHitung", totalHitung)
             startActivity(intent)
         }
 

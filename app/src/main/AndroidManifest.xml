@@ -15,7 +15,6 @@
         <activity android:name=".activity.SuksesPremi2" />
         <activity android:name=".activity.SuksesPremi1" />
         <activity android:name=".activity.DonasiPremiCheckOuts" />
-        <activity android:name=".activity.DonasiPremiCheckOut" />
         <activity android:name=".activity.DonasiPremiRutin" />
         <activity android:name=".activity.DonasiPremiTunggal" />
         <activity android:name=".activity.PopUp2" />
@@ -25,6 +24,7 @@
         <activity android:name=".activity.WHYUS1" />
         <activity android:name=".activity.Ranking" />
         <activity android:name=".activity.SUKSES1" />
+        <activity android:name=".activity.SUKSES2" />
         <activity android:name=".activity.BPJSZakatSehatT" />
         <activity android:name=".activity.BPJSZakatSehatH" />
         <activity android:name=".activity.BPJSActivityZakatMenu" />
